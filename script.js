@@ -115,7 +115,7 @@ const createCard = (cards) => {
     
     //add .png to the array "allCards" and set the cards image
 
-    front.style.backgroundImage = `url('../images/${cards}.png')`;
+    front.style.backgroundImage = `url('./images/${cards}.png')`;
 
     card.className = 'card';
     front.className = 'face front';
